@@ -1,2 +1,2 @@
-# groundstation
-ground station source code
+# READNE
+Add ground station source code here.
