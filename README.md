@@ -42,5 +42,3 @@ pip install -r requirements.txt
 ## Contributing
 
 Make sure to create a pull request (PR) before merging.
-
-test
