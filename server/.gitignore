@@ -1,0 +1,12 @@
+# ignore virtual environment
+venv/
+
+# ignore environment variables
+.env
+
+__pycache__/
+*.py[cod]
+*.so
+
+logs/
+*.log
