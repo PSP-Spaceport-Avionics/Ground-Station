@@ -13,13 +13,18 @@
 		--foreground: #ededed;
 	}
 }
-
+html {
+	height: 100%;
+}
 body {
 	color: var(--foreground);
 	background: var(--background);
 	font-family: 'Roboto', sans-serif;
+	overflow-y: scroll;
+	height: 100%;
+	margin: 0;
+	flex-direction: column;
 }
-
 @layer utilities {
 	.text-balance {
 		text-wrap: balance;

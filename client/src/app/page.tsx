@@ -3,6 +3,9 @@ import { useEffect, useState } from 'react';
 import axios from 'axios';
 
 import ServerTest from './components/server_test/ServerTest';
+import NavBar from './components/navBar/NavBar';
+import Body from './components/body/Body';
+import Footer from './components/footer/Footer';
 
 interface ApiResponse {
 	message: string;
@@ -11,8 +14,11 @@ interface ApiResponse {
 
 export default function Home() {
 	return (
-		<div>
-			<ServerTest />
+		<div className='flex flex-col h-screen'>
+			<NavBar />
+			<Body />
+			<Footer />
+			{/*<ServerTest />*/}
 		</div>
 	);
 }
