@@ -17,7 +17,7 @@ export default function Home() {
 		<div className='flex flex-col h-screen'>
 			<NavBar />
 			<Body />
-			<Footer />
+			{/*<Footer /> */}
 			{/*<ServerTest />*/}
 		</div>
 	);

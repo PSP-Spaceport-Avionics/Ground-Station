@@ -4,8 +4,8 @@ import React from 'react';
 export default function NavBar() {
 	return (
 		<div>
-			<h1 className='h-32 flex items-center justify-center border-2 border-white'>
-				Purdue Spaceport America
+			<h1 className='z-10 pt-14 flex items-center justify-center text-4xl text-[#fbc02d] font-extralight'>
+				PSP Spaceport
 			</h1>
 		</div>
 	);
