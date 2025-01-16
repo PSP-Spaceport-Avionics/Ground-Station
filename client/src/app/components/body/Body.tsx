@@ -53,7 +53,7 @@ export default function LiveGraph() {
 	}, []);
 
 	if (data.length === 0) {
-		return <div>Loading...</div>;
+		return <div className='mx-auto my-auto'>Loading...</div>;
 	}
 
 	// Calculate the min and max for the visible window
@@ -174,18 +174,18 @@ export default function LiveGraph() {
 	};
 
 	return (
-		<div className='flex flex-row h-full'>
-			<div className='flex items-center justify-center my-20 h-5/6 w-8/12 ml-20'>
+		<div className='flex h-full'>
+			<div className='flex items-center justify-center my-20 h-5/6 w-8/12 mx-auto'>
 				<Line
 					ref={chartRef}
 					data={chartData}
 					options={options}
 				/>
 			</div>
-			<div className='flex items-center justify-center border border-white mr-20 w-1/4'>
+			{/*div className='flex items-center justify-center border border-white mr-20 w-1/4'>
 				Toggle Feet/Meters <br />
 				Download Graph
-			</div>
+			</div>*/}
 		</div>
 	);
 }
